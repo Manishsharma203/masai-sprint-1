@@ -1,0 +1,20 @@
+body{ background:rgb(129, 199, 132);
+width:98%; height: 650px;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.div1 { flex-basis: 20%;margin:2px;}
+.div1 h2 {font-family: Acme;color:#4E342E; font-size: 50px;text-align: center;}
+.div2 { flex-basis: 40%;margin:2px;background: rgb(77, 208, 225); border-radius: 15px;}t
+.div2 .fr{text-align: center;}
+.fl {float: left;width: 250px;}
+.div3 { flex-basis: 40%;margin:2px;background: rgb(77, 208, 225);}
+body p {font-family: Crimson Text;}
+
+@media (max-width:800px){
+    .fl {clear: left;height:100px;}
+    .fr{float: left;margin-top: 80px;}
+
+}

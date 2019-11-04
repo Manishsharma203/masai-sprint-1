@@ -1,0 +1,46 @@
+body{
+    background:rgb(38, 198, 218);
+    width: 98%;
+    height:750px ;
+    display: flex;
+    flex-direction: column;
+}
+.main1 {flex-basis: 30%;background:rgb(255, 238, 88); margin-right: 10px;font-size:40px; font-family:Acme; text-align: center;
+    border-radius: 20%;
+    }
+.main1 > p {font-family: Crimson Text,bold; font-size: 20px;}    
+
+.main {flex-basis: 40%;
+         display: flex;   
+         flex-direction: row;
+}
+.dm1 { flex-basis:20%;margin: 1px;}
+.dm2 { flex-basis:75%;margin: 1px;}
+.dr1 { flex-basis:20%;margin: 1px;}
+.dr2 { flex-basis:75%;margin: 1px;}
+.df1 { flex-basis:20%;margin: 1px;}
+.df2 { flex-basis:75%;margin: 1px;}
+.db1 { flex-basis:20%;margin: 1px;}
+.db2 { flex-basis:75%;margin: 1px;}
+
+body figcaption{font-family: Righteous; font-size: 20px;text-align: center;}
+.main p{font-family: Crimson Text; padding: 20px 0 0 10px;}
+
+
+@media (max-width:1000px){
+    
+    .main1 {flex-basis: 20%; height: 200px; background:rgb(224, 224, 224); margin-right: 10px;}
+    .main {flex-basis: 30%;
+        display: flex;   
+        flex-direction: row;
+        flex-direction: column;
+          } 
+          .dm1 { flex-basis:20%;margin: 1px;}
+          .dm2 { flex-basis:75%;margin: 1px;}
+          .dr1 { flex-basis:20%;margin: 1px;}
+          .dr2 { flex-basis:75%;margin: 1px;}
+          .df1 { flex-basis:20%;margin: 1px;}
+          .df2 { flex-basis:75%;margin: 1px;}
+          .db1 { flex-basis:20%;margin: 1px;}
+          .db2 { flex-basis:75%;margin: 1px;}
+}
